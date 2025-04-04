@@ -15,6 +15,6 @@ const Homepage = () => {
 export default Homepage;
 
 // import Link from "next/link";
-{
-  /* <Link href="/properties">Go to Properties</Link> */
-}
+// {
+//   /* <Link href="/properties">Go to Properties</Link> */
+// }
