@@ -31,4 +31,24 @@ WHAT IS MODELS? SCHEMA Used to define the structure of the User document in the 
 MODEL:Used to create a model based on the schema, which allows interaction with the database.
 MODELS: Used to check if a model with the same name already exists (to avoid redefining it).
 
-FETCHING PROPERTIES
+NEXT AUTH WORKS
+next auth is an open source solution for authentication build in support for google.
+database sessions or jwt.
+-serverless function : api route often impliments to handle authetication ralate sign in/ sign out.
+-creat A session: containt the user identification.
+-store session: it scooky each request
+-verify session: check to verify signature key
+-access protect routes : route making use of middleware.
+
+PROVIDERS.
+SECURE BY DEFAULT.
+
+NEXT AUTH STEP
+-we are using googleor 1st you need to set up your google account. console.cloud.google.com
+select a project or create a project.
+click on API & SERVICES GO TO OAUTH CONSENT SCREEN, choise external.
+Appname : the name of app
+user support email : your google email
+fill the rest.
+
+NEXT AUTH & PROVIDER SETUP.
