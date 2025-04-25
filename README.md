@@ -52,3 +52,19 @@ user support email : your google email
 fill the rest.
 
 NEXT AUTH & PROVIDER SETUP.
+1st i created the api/auth/[...nextauth] then route.js file
+2nd created the utilis folder then the authOptions.js file
+3rd created the AuthProvider components file
+4th go to the root layout and wrappe it with the children.
+
+SIGN IN button.
+1st i import the signin and providers also usesession.
+2nd i remove the isLoggedIn and replaced with session
+3rd i called the useEffect for the provider. map through the logging button
+
+SAVING USERS DATA TO THE DATABASE.
+authOPTION
+navbar update
+
+PROTECTED ROUTE
+create a file called middleware.js
